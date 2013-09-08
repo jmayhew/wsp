@@ -424,7 +424,7 @@ padding:5px;
 }
 #menu{
 border:1px solid black;
-width:650px;
+width:670px;
 height:45px;
 margin-left:300px;
 margin-right:auto;
@@ -443,15 +443,16 @@ border:1px solid black;
 }
 footer{
 width:960px;
-height:200px;
+height:100px;
 background-color:rgba(198, 231, 43, .5);
 }
 #content{
 width:600px;
-height:400px;
+height:1050px;
 background-color:orange;
-margin-left:auto;
+margin-left:300px;
 margin-right:auto;
+float:left;
 }
 #voucher{
 width:200px;
