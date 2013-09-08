@@ -411,25 +411,27 @@ height:237px;
 font-family: 'Racing Sans One', cursive;
 background-color:#2be7b0;
 border:1px solid black;
-margin-left:100px;
-margin-top:none;
+position:fixed;
+top:30px;
+left:5px;
        }
-#navigation li{
+#menu li{
 list-style-type:none;
 font-family: 'Racing Sans One', cursive;
 display:inline;
 text-decoration:none;
 padding:5px;
 }
-#navigation{
+#menu{
 border:1px solid black;
 width:650px;
 height:45px;
 margin-left:300px;
 margin-right:auto;
 background-color:rgba(255, 255, 255, .5);
+float:right;
 }
-#navigation a{
+#menu a{
 text-decoration:none;
 }
 
@@ -446,7 +448,7 @@ background-color:rgba(198, 231, 43, .5);
 }
 #content{
 width:600px;
-height:1000px;
+height:400px;
 background-color:orange;
 margin-left:auto;
 margin-right:auto;
@@ -469,4 +471,7 @@ width:1011px;
 height:270px;
 border:1px solid black;
 background-color:#2b88e7;
+}
+.grid_6{
+float:right;
 }
