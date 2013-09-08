@@ -418,16 +418,21 @@ margin-top:none;
 list-style-type:none;
 font-family: 'Racing Sans One', cursive;
 display:inline;
-border:1px solid black;
+text-decoration:none;
+padding:5px;
 }
 #navigation{
 border:1px solid black;
-width:465px;
-height:35px;
+width:650px;
+height:45px;
 margin-left:300px;
 margin-right:auto;
 background-color:rgba(255, 255, 255, .5);
 }
+#navigation a{
+text-decoration:none;
+}
+
 #container{
 width:1011px;
 height:1700px;
@@ -443,6 +448,8 @@ background-color:rgba(198, 231, 43, .5);
 width:600px;
 height:1000px;
 background-color:orange;
+margin-left:auto;
+margin-right:auto;
 }
 #voucher{
 width:200px;
