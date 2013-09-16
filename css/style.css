@@ -47,7 +47,9 @@ border:1px solid black;
 footer{
 width:960px;
 height:100px;
-background-color:rgba(198, 231, 43, .5);
+background-color:brown;
+border:1px solid black;
+
 }
 #content{
 width:600px;
@@ -79,10 +81,15 @@ background-color:#2b88e7;
 float:right;
 }
 .grid_3{
-border:1px solid black;
+border:2px solid black;
 }
 #availabledates{
-padding:100px;
+}
+#bottomlinkmargin{
+border:2px solid black;
+}
+#bottomlinks{
+border:1px solid black;
 }
 
 /* =============================================================================
