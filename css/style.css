@@ -7,28 +7,47 @@ Copyright 2013, Josh Cope
    Site Styles
    ========================================================================== */
 #logo{
+background-color:white;
 float:left;
-width:350px;
-height:237px;
-font-family: 'Racing Sans One', cursive;
-background-color:#2be7b0;
-border:1px solid black;
+width:260px;/* 260/996*/
+height:246px;/**/
+font-family: 'Haettenschweiler';
 position:absolute;
-left:0px;
+left:34px;
 top:0px;
 z-index:+1;
+}
+h1, h2{
+font-family: 'Haettenschweiler';
+}
+p{
+font-family:'Arial';
+}
+#topdateslink{
+width:288px;
+position:absolute;
+left:39px;
+top:158px;
+z-index:+2;
 } 
+#tracklink{
+width:300px;
+height:40px;
+position:absolute;
+left:39px;/*1px;*/
+top:198px;/**/
+z-index:+2;
+}
 #menu li{
 list-style-type:none;
-font-family: 'Racing Sans One', cursive;
+font-family: 'Haettenschweiler';
 display:inline;
 text-decoration:none;
 padding:5px;
 }
 #menu{
-border:1px solid black;
-width:670px;
-height:45px;
+width:700px;/* 70.281124497992%/996*/
+height:45px;/* 2.647058823529%;/1700*/
 margin-left:300px;
 margin-right:auto;
 background-color:rgba(255, 255, 255, .5);
@@ -37,61 +56,111 @@ float:right;
 #menu a{
 text-decoration:none;
 }
-
+#menu ul li a:link		{
+				color:#000000;/*black*/
+						}
+				a:visited{
+				color:#accfcc;/*blue*/
+						}
+				a:hover{
+				color:#accfcc;/*blue*/
+					}
+				a:active{
+				color:#accfcc;/*blue*/
+					}
 #container{
-width:1011px;
-height:1700px;
-background-color:rgba(198, 231, 43, .5);
-border:1px solid black;
-}
-footer{
-width:960px;
-height:100px;
-background-color:brown;
-border:1px solid black;
-
+width:996px;/*100%*/
+height:1700px;/*100%*/
 }
 #content{
 width:600px;
-height:1050px;
-background-color:orange;
+height:950px;
 margin-left:300px;
 margin-right:auto;
+display:box;
+box-pack:center;
+box-align:center;
 }
 #voucher{
+position:absolute;
+left:937px;
+top:598px;
+z-index:+2;
+float:right;
+}
+#videopreview{
+position:absolute;
+left:933px;
+top:363px;
+z-index:+2;
 width:200px;
 height:200px;
-border:1px solid black;
-background-color:red;
 float:right;
 }
-/*#toyota{
-border:1px solid black;
+#toyota{
+position:absolute;
+left:9px;
+top:362px;
+z-index:+2;
 width:278px;
 height:171px;
-padding:10px;
-}*/
-#banner{
-width:1011px;
+}
+#simulatorbanner{
+width:996px;
 height:270px;
 border:1px solid black;
-background-color:#2b88e7;
 }
-.grid_6{
-float:right;
-}
-.grid_3{
-border:2px solid black;
-}
-#availabledates{
-}
-#bottomlinkmargin{
-border:2px solid black;
+#banner{
+width:996px;
+height:280px;
 }
 #bottomlinks{
-border:1px solid black;
+position:absolute;
+left:9px;
+top:1293px;
+z-index:-1;
 }
-
+#giftcertificates a:link {
+width:238px;
+height:180px;
+position:absolute;
+left:94px;
+top:1294px;
+z-index:0;
+}
+#available a:link {
+width:238px;
+height:180px;
+position:absolute;
+left:400px;
+top:1291px;
+z-index:0;
+}
+#testimonials a:link {
+width:238px;
+height:180px;
+position:absolute;
+left:702px;
+top:1291px;
+z-index:0;
+}
+#booklink{
+position:absolute;
+left:47px;
+top:600px;
+z-index:+2;
+width:200px;
+height:200px;
+}
+#callsign{
+position:absolute;
+left:840px;
+top:19px;
+z-index:+2;
+}
+#form{
+background-color:#b8ae9c;
+}
 /* =============================================================================
    Page Styles
    ========================================================================== */
