@@ -9,30 +9,32 @@ Copyright 2013, Josh Cope
 #logo{
 background-color:white;
 float:left;
-width:260px;/* 26.104417670683%/996*/
-height:246px;/**/
-font-family: 'Haettenschweiler';
+width:260px;/*26.104417670683%;/996*/
+height:256px;/*14.470588235294%;/1700*/
 position:absolute;
 left:34px;
 top:0px;
 z-index:+1;
 }
 h1, h2{
-font-family: 'Haettenschweiler';
+font-size:1.5em;
+font-family:'Haettenschweiler';
 }
 p{
 font-family:'Arial';
 }
 #topdateslink{
-width:288px;
+width:300px;/*30.120481927711%;/996*/
+height:40px;/*2.352941176471%;/1700*/
+/*width:288px;*/
 position:absolute;
 left:39px;
 top:158px;
 z-index:+2;
 } 
 #tracklink{
-width:300px;
-height:40px;
+width:300px;/*30.120481927711%;/996*/
+height:40px;/*2.352941176471%;/1700*/
 position:absolute;
 left:39px;/*1px;*/
 top:198px;/**/
@@ -40,13 +42,13 @@ z-index:+2;
 }
 #menu li{
 list-style-type:none;
-font-family: 'Haettenschweiler';
+font-family:'Haettenschweiler';
 display:inline;
 text-decoration:none;
-padding:5px;/*.714285714286%;*/
+padding:5px;/*.714285714286%;*//*.402008032129%;*/
 }
 #menu{
-width:700px;/*70.281124497992%/996*/
+width:700px;/*70.281124497992%;/996*/
 height:45px;/* 2.647058823529%;/1700*/
 margin-left:300px;/*30.120481927711%;/996*/
 margin-right:auto;
@@ -63,23 +65,17 @@ text-decoration:none;
 				color:#accfcc;/*blue*/
 						}
 				a:hover{
-				color:#accfcc;/*blue*/
+				color:#000000;/*black*/
 					}
 				a:active{
 				color:#accfcc;/*blue*/
 					}
-#container{
-width:996px;/*100%*/
-height:1700px;/*100%*/
-}
 #content{
-width:600px;/*600px;60.240963855422%;/996*/
-height:950px;/*950px;55.882352941176%;*/
-margin-left:300px;
+width:600px;/*60.240963855422%;/996*/
+height:950px;/*55.882352941176%;/1700*/
+margin-left:300px;/*30.120481927711%;/996*/
 margin-right:auto;
 display:box;
-box-pack:center;
-box-align:center;
 }
 #voucher{
 position:absolute;
@@ -93,8 +89,8 @@ position:absolute;
 left:933px;
 top:363px;
 z-index:+2;
-width:200px;
-height:200px;
+width:200px;/*20.080321285141%;/996*/
+height:200px;/*11.764705882353%;/1700*/
 float:right;
 }
 #toyota{
@@ -102,17 +98,8 @@ position:absolute;
 left:9px;
 top:362px;
 z-index:+2;
-width:278px;
-height:171px;
-}
-#simulatorbanner{
-width:996px;/*996px100%;*/
-height:270px;/*27.10843373494%;*/
-border:1px solid black;
-}
-#banner{
-width:996px;
-height:280px;
+width:278px;/*27.911646586345%;/996*/
+height:171px;/*10.058823529412%;/1700*/
 }
 #bottomlinks{
 position:absolute;
@@ -121,24 +108,24 @@ top:1293px;
 z-index:-1;
 }
 #giftcertificates a:link {
-width:238px;
-height:180px;
+width:238px;/*23.895582329317%;*/
+height:180px;/*10.588235294118%;*/
 position:absolute;
 left:94px;
 top:1294px;
 z-index:0;
 }
 #available a:link {
-width:238px;
-height:180px;
+width:238px;/*23.895582329317%;*/
+height:180px;/*10.588235294118%;*/
 position:absolute;
 left:400px;
 top:1291px;
 z-index:0;
 }
 #testimonials a:link {
-width:238px;
-height:180px;
+width:238px;/*23.895582329317%;/996*/
+height:180px;/*10.588235294118%;/1700*512px is 100%?????*/
 position:absolute;
 left:702px;
 top:1291px;
@@ -149,8 +136,8 @@ position:absolute;
 left:47px;
 top:600px;
 z-index:+2;
-width:200px;
-height:200px;
+width:200px;/*20.080321285141%;/996*/
+height:200px;/*11.764705882353%;/1700*/
 }
 #callsign{
 position:absolute;
@@ -163,8 +150,9 @@ background-color:#b8ae9c;
 }
 #footer{
 width:996px;/*100%*/
-height:462px;/*27.176470588235%;*/
+height:462px;/*/27.176470588235%;**/
 }
+
 /* =============================================================================
    Page Styles
    ========================================================================== */
@@ -177,11 +165,43 @@ height:462px;/*27.176470588235%;*/
 @media only screen and (min-width: 768px) and (max-width: 995px) {}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+	#logo{
+	width:0px;
+	height:0px;
+	}
+	#menu{
+	width:100%;
+	height:100%;
+	}
+	#content{
+	margin-left:0px;
+	}
+	#toyota{
+	width:0px;
+	height:0px:
+	}
+	#booklink{
+	width:20.080321285141%;
+	height:11.764705882353%;
+	}
+	#giftcertificates a:link {
+	width:238px;/*23.895582329317%;*/
+	height:180px;/*10.588235294118%;*/
+	}
+	#testimonials a:link {
+width:23.895582329317%;/*23.895582329317%;238px;/996*/
+height:10.588235294118%;/*/1700*512px 180px;is 100%?????*/
+}
+#available a:link {
+width:23.895582329317%;/*238px;*/
+height:10.588235294118%;/*180px;*/
+}
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
-
+@media only screen and (min-width: 480px) and (max-width: 767px)
+ 
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {}
 
