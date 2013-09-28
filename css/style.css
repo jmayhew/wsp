@@ -195,6 +195,9 @@ height:10.588235294118%;/*/1700*512px 180px;is 100%?????*/
 width:23.895582329317%;/*238px;*/
 height:10.588235294118%;/*180px;*/
 }
+#booklink{
+visibility:hidden;
+}
 }
 
 /* Mobile Landscape Size to Tablet Portrait */
