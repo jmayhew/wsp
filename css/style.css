@@ -179,10 +179,6 @@ height:462px;/*/27.176470588235%;**/
 	#toyota{
 	visibility:hidden;
 	}
-	#booklink{
-	width:20.080321285141%;
-	height:11.764705882353%;
-	}
 	#giftcertificates a:link {
 	width:238px;/*23.895582329317%;*/
 	height:180px;/*10.588235294118%;*/
@@ -201,8 +197,12 @@ visibility:hidden;
 }
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px)
- 
+@media only screen and (min-width: 480px) and (max-width: 767px){
+ #booklink{
+	width:20.080321285141%;
+	height:11.764705882353%;
+ }
+}
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {}
 
