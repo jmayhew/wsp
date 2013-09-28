@@ -198,10 +198,6 @@ visibility:hidden;
 
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px){
- #booklink{
-	width:20.080321285141%;
-	height:11.764705882353%;
- }
 }
 /* Mobile Portrait Size to Mobile Landscape Size */
 @media only screen and (max-width: 479px) {}
