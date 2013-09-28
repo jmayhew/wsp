@@ -167,8 +167,7 @@ height:462px;/*/27.176470588235%;**/
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
 	#logo{
-	width:0px;
-	height:0px;
+	visibility:hidden;
 	}
 	#menu{
 	width:100%;
@@ -178,8 +177,7 @@ height:462px;/*/27.176470588235%;**/
 	margin-left:0px;
 	}
 	#toyota{
-	width:0px;
-	height:0px;
+	visibility:hidden;
 	}
 	#booklink{
 	width:20.080321285141%;
