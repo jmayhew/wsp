@@ -194,6 +194,9 @@ height:10.588235294118%;/*180px;*/
 #booklink{
 visibility:hidden;
 }
+#tracklink, topdateslink{
+	visibility:hidden;
+}
 }
 
 /* Mobile Landscape Size to Tablet Portrait */
